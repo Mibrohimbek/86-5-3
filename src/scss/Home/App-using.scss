@@ -1,0 +1,34 @@
+@import url(../fonts.scss);
+
+#app-using {
+    background-image: url('/public/app-using-bg.png');
+    padding-top: 120px;
+    position: relative;
+
+    h2 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 47px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 23px;
+    }
+
+    img {
+        margin-top: -40px;
+        margin-bottom: -270px;
+    }
+}

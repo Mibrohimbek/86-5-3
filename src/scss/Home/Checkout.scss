@@ -1,0 +1,82 @@
+@import url('../fonts.scss');
+
+
+#checkout {
+    padding: 120px 0 190px 0;
+
+    h2 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 47px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #232233;
+    }
+
+    p {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6C6C72;
+        margin-top: 23px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        border-radius: 50%;
+        border: 1px solid rgba(89, 86, 233, 1);
+
+        &:hover {
+            background-color: rgba(89, 86, 233, 1);
+        }
+    }
+
+    .carousel-indicators button {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-control-next {
+        padding: 50px !important;
+    }
+
+    .download-app {
+        margin-top: 140px;
+
+        .dad-boxes {
+            margin-top: 60px;
+            gap: 30px;
+
+            .box {
+                background: #5851EA;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                padding: 30px 0 20px 0;
+                width: 170px;
+
+                h5,
+                p {
+                    font-family: 'Josefin Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    margin-top: 23px;
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-top: 18px;
+                }
+            }
+        }
+    }
+}
